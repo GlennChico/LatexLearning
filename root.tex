@@ -1,0 +1,159 @@
+\documentclass[11pt]{article}
+\usepackage{CJK}
+\usepackage{verbatim}
+\usepackage{graphpap}
+\usepackage{fancyvrb}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}
+\author{舒何}
+\title{高等代数}
+\maketitle
+\begin{center}
+	中文你知道\\[1mm]
+	{\large 高等代数}\\[4mm]
+	{\small 作者：舒何}
+\end{center}
+\begin{quotation}
+黑洞是恒星的一种残骸，它是引力收缩第极点，极端道近乎荒唐。\par
+\raggedleft——约翰$\cdot$ 卢米涅	
+\end{quotation}
+\begin{CJKverbatim}
+\begin{verbatim}
+	文本
+\end{verbatim}
+\begin{equation}
+	x_1+x_2+x_3+\dots+x_n=y
+\end{equation}
+\end{CJKverbatim}
+To show the effect of the matrix on surrounding lines insides a paragraph ,we put it here:
+\begin{equation}\nonumber
+\begin{pmatrix}
+	\begin{smallmatrix}
+		1 & 0\\
+		0 & -1
+	\end{smallmatrix}
+\end{pmatrix}
+\end{equation}
+\pageref{equ:gongshi}.\ref{equ:zhengming} and follow it with enough text to ensure that there is at least one full line below the matrix\\
+$\underbrace{a+b+c+\dots+z}_{26}$
+shelfful\\
+shelf\mbox{}fule\\
+\begin{tabular}{|l|l|l|}
+\hline
+dsaw & hello & shuhe\\
+nishuo& wanan & \\ 
+\cline{2-3}
+unuse & yishi &\\
+\hline
+\hline 12 & decimal &\\
+\hline	
+\end{tabular}
+\section{第一章}
+\subsection{求和公式}
+\begin{displaymath}
+	\lim_{n \to \infty}
+	\sum_{k=1}^n \frac{1}{k^2}=\frac{\pi^2}{6}
+\end{displaymath}
+\begin{equation}\label{equ:zhengming}
+	\forall x\in \mathbb{R}: \qquad x^2\geq 0
+\end{equation}
+$e^{x^2}\neq e^{x2}$\qquad
+$a_{i,j}^3$\qquad $\sqrt{x^2+\sqrt{y}}$\qquad$\underline{m+n}\quad\overline{m+n}\qquad$\\
+\begin{displaymath}
+	y=x^2\qquad y'=2x\qquad y''=2
+\end{displaymath}
+\begin{displaymath}
+	\vec A\qquad\overrightarrow{AB}
+\end{displaymath}\\
+\[\lim_{x \rightarrow 0}\frac{sinx}{x}
+\]
+\[v=\sigma_1\cdot\sigma_2\tau_1\cdot\tau_2 
+\]
+\begin{displaymath}
+\begin{split}
+	{n \choose k}\\[4pt]
+\frac{x^2}{k+1}\label{equ:gongshi}\\
+1+\left(\frac{1}{1-x^2}\right)^3\\
+\int_a^b{x^2dx}\\
+\sum_{i=1}^{\frac{5}{y}}{1+2+\cdots+n=y_n}\\
+1+\left(2+3..+n )\right.\\
+\Big((x+1)(x-1)\Big)^2\\
+\mathbf{X}=
+\left(\begin{array}{c|c|c}
+x_{11} & x_{12} & \ldots\\
+x_{21} & x_{22} & \ldots\\
+\vdots & \vdots & \ddots \end{array}\right)\\
+\mathop{\mathrm{corr}}{X,Y}=
+\frac{\displaystyle\sum_{i=1}^n(x_i-\overline x)(y_i-\overline y)}{\displaystyle\biggl[ \sum_{i=1}^n(x_i-\overline x)^2\sum_{i=1}^n(y_i-\overline y)^2\biggr]^{1/2}}\\
+\end{split}
+\end{displaymath}
+\begin{eqnarray}
+	\label{equ:equo}(1+\tau\delta_x)u_{ij}^* & = & u_{ij}^{n-1}+\tau f\\
+	(1+\tau\delta_y)u_{ij}^n & = & u_{ij}^*
+\end{eqnarray}
+对于3.\ref{equ:equo}\,式来说，可以改写成矩阵
+\begin{equation*}
+	Au_{ij}^*=u_{ij}^{n-1}+\tau f
+\end{equation*}
+即
+\newcommand{\gal}{g_\alpha^}
+\begin{align*}
+	A=({K_x}{r_x})(C+C^T)+I\\
+	C=\left( \begin{array}{ccccc}
+		\gal1 & \gal0 & 0 & 0 & 0\\
+		\gal2 & \gal1 & \gal0 & 0 & 0\\
+		\gal3 & \gal2 & \gal1 & \gal0 & 0\\
+		\vdots & \vdots &\ddots &\gal1 & \gal0\\
+		\gal{m_1-1}&\gal{m_1-2} &\ldots & \gal2 & \gal1
+\end{array}\right)\\
+\infty \int_a^b\sin xdx=-\cos x\arrowvert _a^b\\
+\end{align*}
+\begin{displaymath}
+\lim_{x\rightarrow0}\frac{\sin x}{x}=\left\{ \begin{array}{ll}
+	a & ss\\
+	b & cc\\
+	c & hh\\
+	d & abdc\\
+	you &know\\\
+\end{array} \right.
+\end{displaymath}
+\section{theroem}
+\subsection{subtheroem}
+hello
+\newtheorem{dingli}{定理}[subsection]
+\begin{dingli}
+如果有一个人是真的
+\end{dingli}
+\begin{dingli}
+还是一个定理
+\end{dingli}
+\newtheorem{hello}{引理}[section]
+\begin{hello}
+	那~么他就是真的
+\end{hello}
+\begin{enumerate}[(1)]
+	\item latex1
+	\item latex2
+\end{enumerate}
+%hello\verb|\ve.     rb| zhuzidayin 
+\newcommand{\pd}{\partial}
+\newcommand{\fl}[2]{\frac{\pd^{\,#2}u}{\pd{\vert #1 \vert}^{#2}}}
+\numberwithin{equation}{section}
+\begin{eqnarray}
+	K_x\fl{x}{\alpha}+K_y\fl{y}{\beta}+f(u,x,y,t)\\	
+\fl{x}{\alpha}=-c_{\alpha}\left(\fl{x}{\alpha}+\fl{\!-\!x}{\alpha} \right)\\
+\fl{y}{\beta}=-c_{\beta}\left(\fl{y}{\beta}+\fl{\!-\!y}{\beta}\right)
+\end{eqnarray}
+\section{第三章}{这是第三章}
+\begin{gather}
+	\fl{y}{\beta}
+\end{gather}
+\subsection{小节}
+\begin{multline}
+		\fl{y}{\beta}
+\end{multline}
+\end{CJK}
+\end{document}

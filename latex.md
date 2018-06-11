@@ -21,12 +21,24 @@
 * 注音符号：\^ ;   \’’   ; \``
 
 # 2、	显示中文：
+    用pdflatex编译时
     \usepackage{CJK}
     \begin{document}
     \begin{CJK}{UTF8}{gbsn}    %gkai CJK自带的楷体
     …
     \begin{CJK}
     \end{document}
+    
+    用xelatex编译时
+    \documentclass{ctexart}  
+    \begin{document}  
+    使用ctexart类我能输出汉字  
+    \end{document} 
+    \documentclass{article}  
+    \usepackage{ctex}  
+    \begin{document}  
+    使用article类和ctex宏包我也可以输出汉字  
+    \end{document}  
 # 3、	盒子：
 1. 段落盒子Minipage
     ```

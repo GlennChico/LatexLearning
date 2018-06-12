@@ -19,6 +19,8 @@
 * 幻影：\phantom ，可以为不在最终输出种出现的字符预留空间
 * 禁止连字：两字母中间加上\{box},或者\/
 * 注音符号：\^ ;   \’’   ; \``
+* 插入花体 step1:\usepackage{mathrsfs} step2:$\mathcal{X}$
+
 
 # 2、	显示中文：
     用pdflatex编译时
